@@ -14,6 +14,10 @@ app.get('/',(req,res) =>{
     })
 })
 
+app.get('/ismail',(req,res) =>{
+    res.send("i got u ismail")
+})
+
 app.listen(port,()=>{
     console.log(`your port is running ${port}`)
 })
